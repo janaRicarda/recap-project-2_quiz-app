@@ -12,14 +12,17 @@
       <h1 class="header__title">Quiz-App</h1>
     </header>
     <main>
-        <form class="card-list">
-            <label for="question-text">Your question:</label>
-            <textarea id="question-text" name="question" type="text" maxlength="150"></textarea>
-            <label for="answer-text">Your answer:</label>
-            <textarea id="answer-text" name="answer" type="text" maxlength="150"></textarea>
-            <label for="tag-text">Tag:</label>
-            <input id="tag-text" type="text" name="tag">
-            <button type="submit">Submit</button>
+        <form class="card-list__form">
+        
+                <label for="question-text">Your question:</label>
+                <textarea id="question-text" name="question" class="card-list__input" type="text" maxlength="150"></textarea>
+                <label for="answer-text">Your answer:</label>
+                <textarea id="answer-text" name="answer" class="card-list__input" type="text" maxlength="150"></textarea>
+                <label for="tag-text">Tag:</label>
+                <input id="tag-text" type="text" name="tag" class="card-list__tag">
+                <button type="submit" class="card__button-answer">Submit</button>
+            
+            
         </form>
     </main>
     <nav class="navigation">
